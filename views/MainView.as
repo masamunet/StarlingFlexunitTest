@@ -15,6 +15,7 @@ package views
 		public function MainView()
 		{
 			super();
+			setup(init);
 		}
 		
 		public static function setup(callback:Function):void
